@@ -14,9 +14,9 @@ const yashAbout = `
     If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!
   </p>
 `
-const yashbio = "loda lehsun"
+const yashBio = "loda lehsun"
 
-const yashLnk = [
+const yashLink = [
     {
         id: 1,
         name: "Github",
@@ -90,8 +90,8 @@ export {
     yashImage,
     yashName,
     yashAbout,
-    yashbio,
-    yashLnk,
+    yashBio,
+    yashLink,
     yashFooterLInk,
     yashContact,
     yashContactLink
