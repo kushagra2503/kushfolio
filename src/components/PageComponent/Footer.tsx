@@ -24,7 +24,7 @@ const Footer = () => {
                     ))}
                 </div>
                 <p className="text-sm">
-                    © 2025 {isSwitchOn ? yashName : kushagraShortName}. All rights reserved.
+                    © 2025 {isSwitchOn ? kushagraShortName : yashName}. All rights reserved.
                 </p>
             </div>
         </footer>
