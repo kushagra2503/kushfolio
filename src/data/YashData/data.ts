@@ -6,16 +6,16 @@ const yashImage = "/assets/Images/pfps/yashpfp.gif";
 const yashName = "Yash";
 const yashAbout = `
   <p>
-    Hey, I'm Yash .. welcome to other side of the portfolio ! Here you'll get know what I do other than programming.
+    Hey, I’m Yash — welcome to the other side of my portfolio, where I show you what I do other than programming.
   </p>
   <p>
-    Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant in my free time.
+    Outside of coding, I’m all about football, hitting the gym, and diving into story-driven video games.
   </p>
   <p>
     If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!
   </p>
 `
-const yashBio = "loda lehsun"
+const yashBio = "Chill in vibe, mysterious in mind."
 
 const yashLink = [
     {
@@ -39,7 +39,7 @@ const yashLink = [
     {
         id: 4,
         name: "Discord",
-        link: "https://discord.com/users/1000000000000000000",
+        link: "https://discord.com/users/760537388912345179",
         icon: FaDiscord,
     }
 ]
@@ -60,7 +60,7 @@ const yashFooterLInk = [
     {
         id: 3,
         name: "Discord",
-        link: "https://discord.com/users/1000000000000000000",
+        link: "https://discord.com/users/760537388912345179",
         icon: FaDiscord,
     },
     {
@@ -71,12 +71,12 @@ const yashFooterLInk = [
     },
 ]
 
-const yashContact =  "Most of the time, you'll find me hanging out on my Discord channel while coding. I'm also super active on X, so feel free to DM me there!"
+const yashContact =  "Most of the time, you'll find me hanging out on any Discord server. I'm also super active on X, so feel free to DM me there!"
 const yashContactLink = [
     {
         id: 1,
         name: "Discord",
-        link: "https://discord.com/users/1000000000000000000",
+        link: "https://discord.com/users/760537388912345179",
         icon: FaDiscord,
     },
     {
