@@ -17,7 +17,7 @@ const Footer = () => {
                             key={link.id}
                             href={link.link}
                             target="_blank"
-                            className="select-none md:text-base text-xl  hover:opacity-75 flex gap-1 items-center transition duration-100"
+                            className="select-none md:text-base text-xl hover:opacity-75 hover:scale-110 flex gap-1 items-center transition-all duration-200"
                         >
                             <link.icon /> <span className="hidden md: block">{link.name}</span>
                         </a>

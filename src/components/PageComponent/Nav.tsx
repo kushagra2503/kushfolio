@@ -38,7 +38,6 @@ const Nav = () => {
             className="rounded-md"
             width={35}
             height={35}
-            // title={isSwitchOn ? rinkitShortName : gruzName}
           />
         </div>
         {isArrowVisible && (
