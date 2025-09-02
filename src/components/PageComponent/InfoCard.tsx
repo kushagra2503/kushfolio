@@ -18,7 +18,7 @@ import Image from "next/image";
 const InfoCard: React.FC = () => {
   const { isSwitchOn } = useSwitch();
   const [isOpen, setIsOpen] = useState(false);
-  const socialLink = isSwitchOn ? yashLink : kushagraLink;
+  const socialLink = isSwitchOn ? kushagraLink : yashLink;
   return (
     <section>
       <div className="flex flex-col gap-2">
@@ -41,13 +41,13 @@ const InfoCard: React.FC = () => {
           <div className="flex flex-col gap-2">
             <div className="flex gap-4 items-center">
                 <h1 className="head-name">
-                    {isSwitchOn ? yashName: kushagraName}
+                    {isSwitchOn ? kushagraName: yashName}
                 </h1>
                 <div className="md:block hideen">
                     <Available text="Availabel" />
                 </div>
             </div>
-            <p>{isSwitchOn ? yashBio:kushagraBio}</p>
+            <p>{isSwitchOn ? kushagraBio:yashBio}</p>
             <div className="flex flex-wrap gap-1.5">
                 {socialLink.map((link) => (
                     <InfoTip key={link.id} text={link.name}>

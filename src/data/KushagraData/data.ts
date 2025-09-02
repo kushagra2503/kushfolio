@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
 import { MdOutlineMail } from "react-icons/md"
 
-const kushagraImage = "/assets/Images/pfps/zucc.gif"
+const kushagraImage = "/assets/Images/pfps/kushpfp.gif"
 const kushagraName = "Kushagra"
 const kushagraShortName = "Kushh"
 const kushagraBio = "Software Developer"
@@ -41,6 +41,12 @@ const kushagraLink = [
     link: "https://www.linkedin.com/in/",
     icon: FaLinkedinIn,
   },
+  {
+    id: 4,
+    name: "Discord",
+    link: "",
+    icon: FaDiscord,
+  }
 ]
 
 const kushagraContact =

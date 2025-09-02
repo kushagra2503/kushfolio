@@ -6,7 +6,7 @@ import { kushagraFooterLink, kushagraShortName } from "@/data/KushagraData/data"
 
 const Footer = () => {
     const { isSwitchOn } = useSwitch()
-    const footerLinks = isSwitchOn? yashFooterLInk : kushagraFooterLink
+    const footerLinks = isSwitchOn? kushagraFooterLink : yashFooterLInk
     return (
         <footer className="md:mb-12 mb-16">
             <div className="border-t border-zinc-700 my-6"/>

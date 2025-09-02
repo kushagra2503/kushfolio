@@ -1,11 +1,12 @@
 import { SiBuymeacoffee } from "react-icons/si";
-import { FaXTwitter, FaGithub, FaDiscord } from "react-icons/fa6";
+import { FaXTwitter, FaGithub, FaDiscord , FaLinkedinIn} from "react-icons/fa6";
+import { MdOutlineMail } from "react-icons/md";
 
-const yashImage = "/assets/Images/pfps/sung.gif";
+const yashImage = "/assets/Images/pfps/yashpfp.gif";
 const yashName = "Yash";
 const yashAbout = `
   <p>
-    Hey, I'm Gruz, a full-stack developer with OCPD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
+    Hey, I'm Yash, a full-stack developer with OCPD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
   </p>
   <p>
     Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant in my free time.
@@ -27,20 +28,20 @@ const yashLink = [
         id: 2,
         name: "Twitter",
         link:  "https://x.com/intent/follow?screen_name=Brainfdev",
-        icon: FaGithub,
+        icon: FaXTwitter,
     },
     {
         id: 3,
-        name: "Discord",
-        link: "https://discord.com/users/1000000000000000000",
-        icon: FaDiscord,
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/",
+        icon: FaLinkedinIn,
     },
     {
         id: 4,
-        name: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/kushagra2503",
-        icon: SiBuymeacoffee,
-    },
+        name: "Discord",
+        link: "https://discord.com/users/1000000000000000000",
+        icon: FaDiscord,
+    }
 ]
 
 const yashFooterLInk = [
@@ -64,9 +65,9 @@ const yashFooterLInk = [
     },
     {
         id: 4,
-        name: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/kushagra2503",
-        icon: SiBuymeacoffee,
+        name: "Email",
+        link: "mailto:radhikayash2@gmail.com",
+        icon: MdOutlineMail,
     },
 ]
 
@@ -84,6 +85,12 @@ const yashContactLink = [
         link: "https://x.com/intent/follow?screen_name=Brainfdev",
         icon: FaXTwitter,
     },
+    {
+        id: 3,
+        name: "Email",
+        link: "mailto:radhikayash2@gmail.com",
+        icon: MdOutlineMail,
+    }
 ]
 
 export {
