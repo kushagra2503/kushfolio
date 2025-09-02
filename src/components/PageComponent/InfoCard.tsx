@@ -28,7 +28,7 @@ const InfoCard: React.FC = () => {
         <div className="flex gap-3 items-center">
           <div
             onClick={() => setIsOpen(true)}
-            className=" cursor-pointer hover:brightness-75 transition duration-200 select-none w-1/3 md:w-auto"
+            className=" cursor-pointer hover:brightness-75 dark:hover:brightness-90 transition duration-200 select-none w-1/3 md:w-auto"
           >
             <Image
               src={isSwitchOn ? yashImage : kushagraImage}
@@ -47,7 +47,7 @@ const InfoCard: React.FC = () => {
                     <Available text="Online" />
                 </div>
             </div>
-            <p>{isSwitchOn ? kushagraBio:yashBio}</p>
+            <p className="text-light-muted dark:text-mainWhite/80">{isSwitchOn ? kushagraBio:yashBio}</p>
             <div className="flex flex-wrap gap-1.5">
                 {socialLink.map((link) => (
                     <InfoTip key={link.id} text={link.name}>
@@ -67,7 +67,7 @@ const InfoCard: React.FC = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className=" select-none fixed inset-0 bg-black/80 z-50 flex items-center justify-center"
+            className=" select-none fixed inset-0 bg-black/80 dark:bg-black/90 z-50 flex items-center justify-center"
             onClick={() => setIsOpen(false)}
           >
             <motion.button
@@ -76,7 +76,7 @@ const InfoCard: React.FC = () => {
               exit={{ opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.2 }}
               onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 text-white hover:text-gray-300 p-2"
+              className="absolute top-4 right-4 text-white dark:text-mainWhite hover:text-gray-300 dark:hover:text-gray-400 p-2"
             >
               <svg
                 className="w-6 h-6"
@@ -99,7 +99,7 @@ const InfoCard: React.FC = () => {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="w-[600px]  max-w-[90vw]  md:max-w-[25vw]  rounded-lg overflow-hidden"
+              className="w-[600px] max-w-[90vw] md:max-w-[25vw] rounded-lg overflow-hidden bg-white dark:bg-zinc-800"
               onClick={(e) => e.stopPropagation()}
             >
               <Image

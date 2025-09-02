@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-  @apply bg-mainBlack text-mainWhite;
+  @apply bg-light-bg text-light-text dark:bg-mainBlack dark:text-mainWhite transition-colors duration-300;
 }
 ::selection {
-  @apply bg-mainWhite text-mainBlack;
+  @apply bg-light-text text-light-bg dark:bg-mainWhite dark:text-mainBlack;
 }
 
 /* For Firefox-specific styling */
 ::-moz-selection {
-  @apply bg-mainWhite text-mainBlack;
+  @apply bg-light-text text-light-bg dark:bg-mainWhite dark:text-mainBlack;
 }
 
 .screen {
@@ -26,10 +26,10 @@ body {
 }
 
 .social-card {
-  @apply select-none bg-zinc-950 border border-zinc-700 rounded-md p-1.5 text-[1.35rem] hover:bg-zinc-900 hover:scale-110 transition-all duration-200;
+  @apply select-none bg-light-card border border-light-border dark:bg-zinc-950 dark:border-zinc-700 rounded-md p-1.5 text-[1.35rem] hover:bg-light-muted dark:hover:bg-zinc-900 hover:scale-110 transition-all duration-200;
 }
 .skills-card {
-  @apply select-none transition-colors duration-100 flex flex-row gap-1 items-center bg-zinc-900 border border-zinc-700 px-2  py-1 rounded-md;
+  @apply select-none transition-colors duration-100 flex flex-row gap-1 items-center bg-light-card border border-light-border dark:bg-zinc-900 dark:border-zinc-700 px-2 py-1 rounded-md;
 }
 
 .head-name {
@@ -37,13 +37,13 @@ body {
 }
 
 .showMore-btn {
-  @apply select-none bg-zinc-700/30 w-full px-2 py-1 rounded-md hover:bg-zinc-700/50 transition-colors duration-100;
+  @apply select-none bg-light-muted/50 dark:bg-zinc-700/30 w-full px-2 py-1 rounded-md hover:bg-light-muted dark:hover:bg-zinc-700/50 transition-colors duration-100;
 }
 
 .btn {
-  @apply cursor-pointer w-fit select-none transition-all duration-200 flex flex-row gap-1.5 items-center bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 hover:scale-105 px-2  py-1 rounded-md;
+  @apply cursor-pointer w-fit select-none transition-all duration-200 flex flex-row gap-1.5 items-center bg-light-card border border-light-border dark:bg-zinc-900 dark:border-zinc-700 hover:bg-light-muted dark:hover:bg-zinc-800 hover:scale-105 px-2 py-1 rounded-md;
 }
 
 .blog-post {
-  @apply cursor-pointer bg-zinc-900 border border-zinc-700 hover:bg-zinc-800/75 p-2 rounded-md transition-colors duration-100;
+  @apply cursor-pointer bg-light-card border border-light-border dark:bg-zinc-900 dark:border-zinc-700 hover:bg-light-muted/75 dark:hover:bg-zinc-800/75 p-2 rounded-md transition-colors duration-100;
 }

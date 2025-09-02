@@ -69,7 +69,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
   return (
     <div
       onClick={() => setOpen((prev) => !prev)}
-      className="project-box bg-zinc-900 cursor-pointer hover:bg-zinc-800/75 transition-colors duration-100 border border-zinc-700 rounded-md"
+      className="project-box bg-light-card dark:bg-zinc-900 cursor-pointer hover:bg-light-muted/75 dark:hover:bg-zinc-800/75 transition-colors duration-100 border border-light-border dark:border-zinc-700 rounded-md"
     >
       <AnimatePresence mode="wait">
         {show && (
@@ -114,7 +114,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         <div className="basis-[78%] flex flex-col md:gap-0 gap-1">
           <div className="flex justify-between items-center">
             <div className="flex gap-2 items-center truncate">
-              <h1 className="text-2xl font-semibold">{title}</h1>
+              <h1 className="text-2xl font-semibold text-light-text dark:text-mainWhite">{title}</h1>
               {status ? (
                 <div className="select-none font-medium text-xs w-fit px-1.5 py-0.5 gap-0.5 rounded-md flex items-center bg-green-400/10 text-green-400">
                   <span className="animate-pulse">
@@ -142,7 +142,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                           setShow((prev) => !prev)
                         }}
                         target="_blank"
-                        className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                        className="cursor-pointer hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                       >
                         <FaEyeSlash />
                       </a>
@@ -155,7 +155,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                           setShow((prev) => !prev)
                         }}
                         target="_blank"
-                        className="cursor-pointer hover:text-zinc-400 transition-colors duration-100"
+                        className="cursor-pointer hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                       >
                         <FaEye />
                       </a>
@@ -168,7 +168,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                 <InfoTipProjects text="Live">
                   <a
                     target="_blank"
-                    className="hover:text-zinc-400 transition-colors duration-100"
+                    className="hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                     href={url}
                     onClick={(e) => {
                       e.stopPropagation()
@@ -185,7 +185,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                       e.stopPropagation()
                     }}
                     target="_blank"
-                    className="hover:text-zinc-400 transition-colors duration-100"
+                    className="hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                     href={github}
                   >
                     <FiGithub />
@@ -194,7 +194,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               )}
             </div>
           </div>
-          <p className="opacity-80">{content}</p>
+          <p className="opacity-80 text-light-text dark:text-mainWhite">{content}</p>
         </div>
       </div>
       <AnimatePresence mode="wait">
@@ -215,13 +215,13 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
             transition={{ ease: "easeInOut", duration: 0.3 }}
             className=" overflow-hidden"
           >
-            <div className="flex border-t border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />
+            <div className="flex border-t border-light-border dark:border-zinc-700 w-[97%] mt-3 md:mt-0 mx-auto" />
             <div className="flex justify-between items-center md:py-2 py-3 px-3 transition-all duration-100">
               <div className="flex flex-wrap gap-1.5 select-none">
                 {skill.map((skill, index) => (
                   <p
                     key={index}
-                    className="border border-zinc-700 px-2 py-0.5 rounded-md text-sm"
+                    className="border border-light-border dark:border-zinc-700 px-2 py-0.5 rounded-md text-sm text-light-text dark:text-mainWhite"
                   >
                     {skill}
                   </p>
@@ -229,7 +229,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
               </div>
               <div className="flex gap-4 items-center md:px-2 px-2.5 md:text-lg text-xl">
                 <div
-                  className="cursor-pointer select-none hover:text-zinc-400 transition-colors duration-100"
+                  className="cursor-pointer select-none hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                   onClick={(e) => {
                     e.stopPropagation()
                     handleShare(url ? url : github)

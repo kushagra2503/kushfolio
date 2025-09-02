@@ -67,62 +67,61 @@ const skills = [
   { id: 27, icon: VscTerminalLinux, text: "Linux" },
   { id: 28, icon: SiVercel, text: "Vercel" },
   { id: 29, icon: PiFigmaLogoBold, text: "Figma" },
-  { id:30, icon: SiRust, text: "Rust" },
-
-]
+  { id: 30, icon: SiRust, text: "Rust" },
+];
 
 const projects = [
-    {
-        id: 1,
-        img: "",
-        title: "QuackQuery",
-        status: "true",
-        content: "",
-        url: "",
-        github:"",
-        skill:[],
-        preview: "",
-    },
-    {
-        id: 2,
-        img: "",
-        title: "Kushfolio",
-        status: "true",
-        content: "",
-        url: "",
-        github:"",
-        skill:[],
-        preview: "",
-    },
-    {
-        id: 3,
-        img: "",
-        title: "Kushagra's Portfolio",
-        status: "true",
-        content: "",
-        url: "",
-        github:"",
-        skill:[],
-        preview: "",
-    }
-]
+  {
+    id: 1,
+    img: "",
+    title: "QuackQuery",
+    status: "true",
+    content: "",
+    url: "",
+    github: "",
+    skill: [],
+    preview: "",
+  },
+  {
+    id: 2,
+    img: "",
+    title: "Kushfolio",
+    status: "true",
+    content: "",
+    url: "",
+    github: "",
+    skill: [],
+    preview: "",
+  },
+  {
+    id: 3,
+    img: "",
+    title: "Kushagra's Portfolio",
+    status: "true",
+    content: "",
+    url: "",
+    github: "",
+    skill: [],
+    preview: "",
+  },
+];
 
 const writings = [
-    {
-        id: 1,
-        img: "",
-        head:"",
-        des:"",
-        link:"",
-    },
-]
+  {
+    id: 1,
+    img: "",
+    head: "",
+    des: "",
+    link: "",
+  },
+];
 
-const hireText= "I’m currently available for internships, full-time opportunities, and freelance projects. If you’re looking for someone passionate, skilled, and ready to contribute, I’m here to help bring your ideas to life!"
+const hireText = "I'm currently available for internships, full-time opportunities, and freelance projects. If you're looking for someone passionate, skilled, and ready to contribute, I'm here to help bring your ideas to life!";
 
-const emailLink = "mailto:radhikayash2@gmail.com?subject=Interested%20in%20Hiring%20You"
+const emailLink = "mailto:radhikayash2@gmail.com?subject=Interested%20in%20Hiring%20You";
 
 const navLinks = [
-     {
+  {
     id: 1,
     name: "Github",
     link: "https://github.com/kushagra2503",
@@ -140,11 +139,11 @@ const navLinks = [
     link: "https://www.linkedin.com/in/",
     icon: FaLinkedinIn,
   },
-]
+];
 
-const supportText = "If you love what I do, whether it’s my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
+const supportText = "If you love what I do, whether it's my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work.";
 
-const newsText = "If you love what I do, whether it’s my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
+const newsText = "If you love what I do, whether it's my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work.";
 
 export {
   projects,
@@ -155,4 +154,4 @@ export {
   navLinks,
   supportText,
   newsText,
-}
+};

@@ -13,15 +13,15 @@ const Select = ({ options }: { options: Option[] }) => {
       <select
         value={selectedOption}
         onChange={(e) => setSelectedOption(e.target.value)}
-        className="w-full px-3 py-1 bg-zinc-900 border border-zinc-700 rounded-md 
-                   focus:outline-none focus:border-zinc-500 hover:border-zinc-500 appearance-none cursor-pointer transition duration-100"
+        className="w-full px-3 py-1 bg-light-card dark:bg-zinc-900 border border-light-border dark:border-zinc-700 rounded-md
+                   focus:outline-none focus:border-light-muted dark:focus:border-zinc-500 hover:border-light-muted dark:hover:border-zinc-500 appearance-none cursor-pointer transition duration-100 text-light-text dark:text-mainWhite"
       >
         <option value="Show all"></option>
         {options.map((option) => (
           <option
             key={option.value}
             value={option.value}
-            className="hover:bg-zinc-800"
+            className="hover:bg-light-muted dark:hover:bg-zinc-800 text-light-text dark:text-mainWhite"
           >
             {option.label}
           </option>

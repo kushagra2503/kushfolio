@@ -11,7 +11,7 @@ const LocalTIme = () => {
     }, [])
 
     return (
-        <div>
+        <div className="text-inherit dark:!text-mainWhite transition-colors duration-300">
             {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit"})}
         </div>
     )
