@@ -44,7 +44,7 @@ const InfoCard: React.FC = () => {
                     {isSwitchOn ? kushagraName: yashName}
                 </h1>
                 <div className="md:block hideen">
-                    <Available text="Availabel" />
+                    <Available text="Online" />
                 </div>
             </div>
             <p>{isSwitchOn ? kushagraBio:yashBio}</p>

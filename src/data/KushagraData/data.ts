@@ -10,7 +10,7 @@ const kushagraShortName = "Kushh"
 const kushagraBio = "Software Developer"
 const kushagraAbout = `
   <p>
-    Hey! Kushagra, an undergraduate computer science student and full-stack developer who loves turning ideas into real, working products.
+    Hey! Kushagra, a frustrated 3rd year student and full-stack developer who loves turning ideas into real, working products.
   </p>
   <p>
     I'm flexible working with any tech stack, though I prefer modern tools. I'm currently working with Next.js, Django, Express, and TypeScript.

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   description: "Portfolio of Kushagra - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
   keywords: ["Kushagra", "Portfolio", "Full Stack Developer", "React", "Next.js", "Node.js", "Web Developer"],
-  authors: [{ name: "Rinkit Adhana" }],
+  authors: [{ name: "Kushagra" }],
   creator: "Rinkit Adhana",
   metadataBase: new URL("https://kushagra-portfolio.vercel.app"),
   icons: {

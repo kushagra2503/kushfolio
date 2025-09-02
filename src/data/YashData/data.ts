@@ -6,7 +6,7 @@ const yashImage = "/assets/Images/pfps/yashpfp.gif";
 const yashName = "Yash";
 const yashAbout = `
   <p>
-    Hey, I'm Yash, a full-stack developer with OCPD. I love building things that people genuinely use and love, not just for showcases (like the typical engineer).
+    Hey, I'm Yash .. welcome to other side of the portfolio ! Here you'll get know what I do other than programming.
   </p>
   <p>
     Besides programming, I'm a volleyball player who loves football. I also enjoy playing video games, mostly FIFA and Valorant in my free time.
