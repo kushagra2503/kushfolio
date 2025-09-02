@@ -44,7 +44,7 @@ const kushagraLink = [
   {
     id: 4,
     name: "Discord",
-    link: "",
+    link: "https://discord.com/users/760537388912345179",
     icon: FaDiscord,
   }
 ]
@@ -61,7 +61,7 @@ const kushagraContactLink = [
   {
     id: 2,
     name: "Discord",
-    link: "",
+    link: "https://discord.com/users/760537388912345179",
     icon: FaDiscord,
   },
   {
