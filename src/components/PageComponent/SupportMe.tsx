@@ -25,11 +25,11 @@ const SupportMe= () => {
             className="btn"
             onClick={(e) => {
               e.stopPropagation()
-              handleShare("9911039595@ptsbi")
+              handleShare("radhikayash2@okhdfcbank")
             }}
           >
             <SiGooglepay className="text-[#01BAF2]" />
-            Google Pay
+            UPI ID
           </div>
                 </div>
             </div>
