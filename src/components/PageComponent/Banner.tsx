@@ -3,6 +3,7 @@
 import React from "react";
 import LocalTIme from "@/utils/LocalTime";
 import StarButton from "../StarButton";
+import ThemeToggle from "../ThemeToggle";
 
 const Banner: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Banner: React.FC = () => {
             </span>
         </a>
         <div className="flex gap-2.5 items-center">
+            <ThemeToggle />
             <StarButton />
         </div>
       </section>
