@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
           <br>
           <p style="color: #666; line-height: 1.6;">
             Best regards,<br>
-            Yashree
+            Kushagra
           </p>
         </div>
       `
