@@ -27,7 +27,7 @@ const yashLink = [
     {
         id: 2,
         name: "Twitter",
-        link:  "https://x.com/intent/follow?screen_name=Brainfdev",
+        link:  "https://x.com/intent/follow?screen_name=Finetunedxd",
         icon: FaXTwitter,
     },
     {
@@ -54,7 +54,7 @@ const yashFooterLInk = [
     {
         id: 2,
         name: "Twitter",
-        link: "https://x.com/intent/follow?screen_name=Brainfdev",
+        link: "https://x.com/intent/follow?screen_name=Finetunedxd",
         icon: FaXTwitter,
     },
     {
@@ -82,7 +82,7 @@ const yashContactLink = [
     {
         id: 2,
         name: "Twitter",
-        link: "https://x.com/intent/follow?screen_name=Brainfdev",
+        link: "https://x.com/intent/follow?screen_name=Finetunedxd",
         icon: FaXTwitter,
     },
     {

@@ -37,13 +37,19 @@ export async function POST(request: NextRequest) {
       to: email,
       subject: 'Welcome to the Newsletter!',
       html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <div style="font-family: 'SF Pro Display', 'SF Pro', Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Hii ${name}! 👋</h2>
           <p style="color: #666; line-height: 1.6;">
-            Thank you for subscribing to our newsletter! We're excited to have you on board.
+            Thank you for subscribing ! I'm excited to have you on board.
           </p>
           <p style="color: #666; line-height: 1.6;">
-            You'll be the first to know about new projects, articles, and updates.
+            You'll be the first to know about new projects, articles, and updates. I'll be sharing my work and experiences with you.
+          </p>
+          <p style="color: #666; line-height: 1.6;">
+            Join our <a href="https://discord.gg/jbCj6vXq" style="color: #5865f2; text-decoration: none;">Discord community</a> to connect with me and my team
+          </p>
+          <p style="color: #666; line-height: 1.6;">
+            Follow me on <a href="https://x.com/intent/follow?screen_name=Finetunedxd" style="color: #1da1f2; text-decoration: none;">Twitter</a> for daily updates and insights
           </p>
           <br>
           <p style="color: #666; line-height: 1.6;">

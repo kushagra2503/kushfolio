@@ -31,7 +31,7 @@ const kushagraLink = [
   {
     id: 2,
     name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=Brainfdev",
+    link: "https://x.com/intent/follow?screen_name=Finetunedxd",
     icon: FaXTwitter,
   },
 
@@ -55,7 +55,7 @@ const kushagraContactLink = [
   {
     id: 1,
     name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=Brainfdev",
+    link: "https://x.com/intent/follow?screen_name=Finetunedxd",
     icon: FaXTwitter,
   },
   {
@@ -89,7 +89,7 @@ const kushagraFooterLink = [
   {
     id: 3,
     name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=Brainfdev",
+    link: "https://x.com/intent/follow?screen_name=Finetunedxd",
     icon: FaXTwitter,
   },
   {

@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: "Kushagra - Portfolio",
     description: "Portfolio of Kushagra - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
     images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png"],
-    creator: "@Brainfdev",
+    creator: "@Finetunedxd",
   },
   robots: {
     index: true,

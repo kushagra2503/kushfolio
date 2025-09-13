@@ -130,7 +130,7 @@ const navLinks = [
   {
     id: 2,
     name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=Brainfdev",
+    link: "https://x.com/intent/follow?screen_name=Finetunedxd",
     icon: FaXTwitter,
   },
   {
