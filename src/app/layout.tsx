@@ -24,30 +24,8 @@ export const metadata: Metadata = {
   creator: "Rinkit Adhana",
   metadataBase: new URL("https://kushagra-portfolio.vercel.app"),
   icons: {
-    icon: [
-      {
-        media: "(prefers-color-scheme: light)",
-        url: "/assets/Images/icon/icon-light.png",
-        type: "image/png",
-      },
-      {
-        media: "(prefers-color-scheme: dark)",
-        url: "/assets/Images/icon/icon-dark.png",
-        type: "image/png",
-      },
-    ],
-    shortcut: [
-      {
-        media: "(prefers-color-scheme: light)",
-        url: "/assets/Images/icon/icon-light.png",
-        type: "image/png",
-      },
-      {
-        media: "(prefers-color-scheme: dark)",
-        url: "/assets/Images/icon/icon-dark.png",
-        type: "image/png",
-      },
-    ],
+    icon: "/assets/images/favicon/eyes.jpg",
+    shortcut: "/assets/images/favicon/eyes.jpg",
   },
   openGraph: {
     title: "Kushagra - Portfolio",
