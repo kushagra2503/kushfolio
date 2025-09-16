@@ -1,4 +1,4 @@
-import { SiBuymeacoffee } from "react-icons/si";
+
 import { FaXTwitter, FaGithub, FaDiscord , FaLinkedinIn} from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 
