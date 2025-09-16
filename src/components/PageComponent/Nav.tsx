@@ -45,7 +45,7 @@ const Nav = () => {
         {isArrowVisible && theme === 'dark' && (
           <div id="arrow" className="absolute -rotate-90 bottom-6 -right-9 bg-zinc-800 dark:bg-transparent rounded-full p-1.5 shadow-lg dark:shadow-zinc-900/50 transition-all duration-300 animate-pulse">
             <Image
-              src="/assets/Images/gif/arrow.gif"
+              src="/assets/images/gif/arrow.gif"
               alt="arrow"
               className="size-10"
               width={100}

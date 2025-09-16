@@ -2,7 +2,7 @@
 import { FaXTwitter, FaGithub, FaDiscord , FaLinkedinIn} from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 
-const yashImage = "/assets/Images/pfps/yashpfp.gif";
+const yashImage = "/assets/images/pfps/yashpfp.gif";
 const yashName = "Yash";
 const yashAbout = `
   <p>

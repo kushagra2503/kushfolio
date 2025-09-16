@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa6"
 import { MdOutlineMail } from "react-icons/md"
 
-const kushagraImage = "/assets/Images/pfps/kushpfp.gif"
+const kushagraImage = "/assets/images/pfps/kushpfp.gif"
 const kushagraName = "Kushagra"
 const kushagraShortName = "Kushh"
 const kushagraBio = "Software Developer"
