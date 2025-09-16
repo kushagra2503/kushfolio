@@ -10,10 +10,10 @@ const kushagraShortName = "Kushh"
 const kushagraBio = "Software Developer"
 const kushagraAbout = `
   <p>
-  Kushagra | 3rd-year undergrad, future entrepreneur & full-stack dev turning wild ideas into real products.
+  Kushagra | 3rd-year undergrad, wannabe entrepreneur & full-stack dev turning wild ideas into real products.
   </p>
   <p>
-    I'm flexible working with any tech stack, though I prefer modern tools. I'm currently working with Next.js, Express, Rust and TypeScript.
+    I'm flexible working with any tech stack, though I prefer modern tools. I'm currently working with Next.js, Express, Rust, Python and TypeScript.
   </p>
   <p>
     I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems.
@@ -38,7 +38,7 @@ const kushagraLink = [
   {
     id: 3,
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/",
+    link: "https://www.linkedin.com/in/kushagra2503/",
     icon: FaLinkedinIn,
   },
   {
@@ -95,7 +95,7 @@ const kushagraFooterLink = [
   {
     id: 4,
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/",
+    link: "https://www.linkedin.com/in/kushagra2503/",
     icon: FaLinkedinIn,
   },
 ]

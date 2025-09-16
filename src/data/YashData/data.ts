@@ -33,7 +33,7 @@ const yashLink = [
     {
         id: 3,
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/",
+        link: "https://www.linkedin.com/in/kushagra2503/",
         icon: FaLinkedinIn,
     },
     {
