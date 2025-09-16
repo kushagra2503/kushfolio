@@ -24,8 +24,9 @@ export const metadata: Metadata = {
   creator: "Rinkit Adhana",
   metadataBase: new URL("https://kushagra-portfolio.vercel.app"),
   icons: {
-    icon: "/assets/images/favicon/eyes.jpg",
-    shortcut: "/assets/images/favicon/eyes.jpg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     title: "Kushagra - Portfolio",
@@ -70,6 +71,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta name="msapplication-TileImage" content="/favicon.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
