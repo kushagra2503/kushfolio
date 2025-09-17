@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Switchfolio",
     images: [
       {
-        url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png",
+        url: "/assets/images/vegeta.jpg",
         width: 1200,
         height: 630,
         alt: "Kushagra - Portfolio"
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kushagra - Portfolio",
     description: "Portfolio of Kushagra - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
-    images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png"],
+    images: ["/assets/images/vegeta.jpg"],
     creator: "@Finetunedxd",
   },
   robots: {
