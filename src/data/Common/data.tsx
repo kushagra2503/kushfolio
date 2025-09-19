@@ -1,5 +1,5 @@
 import { BiLogoPostgresql } from "react-icons/bi"
-import { FaGithub, FaLinkedinIn, FaPython, FaXTwitter } from "react-icons/fa6"
+import { FaGithub, FaLinkedinIn, FaPython, FaXTwitter, FaDiscord } from "react-icons/fa6"
 import { DiJavascript } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa6"
 import { IoLogoNodejs } from "react-icons/io5"
@@ -129,15 +129,15 @@ const navLinks = [
   },
   {
     id: 2,
-    name: "Twitter",
-    link: "https://x.com/intent/follow?screen_name=Finetunedxd",
-    icon: FaXTwitter,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/kushagra2503/",
+    icon: FaLinkedinIn,
   },
   {
     id: 3,
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/",
-    icon: FaLinkedinIn,
+    name: "Discord",
+    link: "https://discord.com/users/760537388912345179",
+    icon: FaDiscord,
   },
 ];
 

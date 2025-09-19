@@ -19,13 +19,15 @@ const Nav = () => {
   return (
     <div className="fixed bottom-6 left-0 right-0 flex justify-center items-center">
       <div className="relative bg-light-card border border-light-border dark:bg-mainBlack dark:border-zinc-700 px-4 py-2.5 rounded-xl flex items-center gap-4 shadow-lg dark:shadow-zinc-900/50 hover:shadow-xl transition-shadow duration-300 backdrop-blur-sm">
-        <div className="flex gap-3 items-center">
+        <div className="dock-container">
           {navLinks.map((nav) => (
-            <InfoTipNav key={nav.id} text={nav.name}>
-              <a target="_blank" className="p-2 rounded-lg hover:bg-light-muted dark:hover:bg-zinc-700 transition-all duration-200 hover:scale-110" href={nav.link}>
-                {<nav.icon className="text-light-text dark:text-mainWhite" />}
-              </a>
-            </InfoTipNav>
+            <div key={nav.id} className="dock-item">
+              <InfoTipNav text={nav.name}>
+                <a target="_blank" className="dock-icon" href={nav.link}>
+                  {<nav.icon className="text-[1.35rem]" />}
+                </a>
+              </InfoTipNav>
+            </div>
           ))}
         </div>
         <div className="h-8 w-[1px] bg-light-border dark:bg-zinc-500 mr-1 rounded-full"></div>

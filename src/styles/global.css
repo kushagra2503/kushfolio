@@ -47,3 +47,32 @@ body {
 .blog-post {
   @apply cursor-pointer bg-light-card border border-light-border dark:bg-zinc-900 dark:border-zinc-700 hover:bg-light-muted/75 dark:hover:bg-zinc-800/75 p-2 rounded-md transition-colors duration-100;
 }
+
+/* MacOS Dock Animation */
+.dock-container {
+  @apply flex items-end gap-1;
+}
+
+.dock-item {
+  @apply relative transition-all duration-300 ease-out transform-gpu;
+  transform-origin: bottom center;
+}
+
+.dock-item:hover {
+  @apply scale-125 -translate-y-2;
+}
+
+.dock-item:hover ~ .dock-item,
+.dock-item:has(~ .dock-item:hover) {
+  @apply scale-95;
+}
+
+.dock-icon {
+  @apply text-light-text dark:text-mainWhite transition-all duration-300 ease-out p-2 rounded-lg;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.dock-item:hover .dock-icon {
+  @apply text-light-text dark:text-mainWhite;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
