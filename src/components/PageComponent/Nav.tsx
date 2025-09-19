@@ -20,9 +20,9 @@ const Nav = () => {
     <div className="fixed bottom-6 left-0 right-0 flex justify-center items-center">
       <div className="relative bg-light-card border border-light-border dark:bg-mainBlack dark:border-zinc-700 px-4 py-2.5 rounded-xl flex items-center gap-4 shadow-lg dark:shadow-zinc-900/50 hover:shadow-xl transition-shadow duration-300 backdrop-blur-sm overflow-hidden">
         {/* Plane GIF Background Overlay */}
-        <div className="absolute inset-0 opacity-10 pointer-events-none">
+        <div className="absolute inset-0 opacity-85 pointer-events-none">
           <Image
-            src="/assets/images/plane.gif"
+            src="/assets/images/plane2.gif"
             alt="Plane background"
             fill
             className="object-cover rounded-xl"
