@@ -1,5 +1,5 @@
 import { BiLogoPostgresql } from "react-icons/bi"
-import { FaGithub, FaLinkedinIn, FaPython, FaXTwitter, FaDiscord } from "react-icons/fa6"
+import { FaGithub, FaLinkedinIn, FaPython, FaDiscord } from "react-icons/fa6"
 import { DiJavascript } from "react-icons/di"
 import { FaGitAlt } from "react-icons/fa6"
 import { IoLogoNodejs } from "react-icons/io5"
