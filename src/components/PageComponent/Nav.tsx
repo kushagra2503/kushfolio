@@ -18,8 +18,18 @@ const Nav = () => {
     }
   return (
     <div className="fixed bottom-6 left-0 right-0 flex justify-center items-center">
-      <div className="relative bg-light-card border border-light-border dark:bg-mainBlack dark:border-zinc-700 px-4 py-2.5 rounded-xl flex items-center gap-4 shadow-lg dark:shadow-zinc-900/50 hover:shadow-xl transition-shadow duration-300 backdrop-blur-sm">
-        <div className="dock-container">
+      <div className="relative bg-light-card border border-light-border dark:bg-mainBlack dark:border-zinc-700 px-4 py-2.5 rounded-xl flex items-center gap-4 shadow-lg dark:shadow-zinc-900/50 hover:shadow-xl transition-shadow duration-300 backdrop-blur-sm overflow-hidden">
+        {/* Plane GIF Background Overlay */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none">
+          <Image
+            src="/assets/images/plane.gif"
+            alt="Plane background"
+            fill
+            className="object-cover rounded-xl"
+            priority={false}
+          />
+        </div>
+        <div className="dock-container relative z-10">
           {navLinks.map((nav) => (
             <div key={nav.id} className="dock-item">
               <InfoTipNav text={nav.name}>
@@ -30,9 +40,9 @@ const Nav = () => {
             </div>
           ))}
         </div>
-        <div className="h-8 w-[1px] bg-light-border dark:bg-zinc-500 mr-1 rounded-full"></div>
+        <div className="h-8 w-[1px] bg-light-border dark:bg-zinc-500 mr-1 rounded-full relative z-10"></div>
         <div
-          className="rounded-md hover:scale-105 transition-all duration-300 cursor-pointer hover:shadow-md"
+          className="rounded-md hover:scale-105 transition-all duration-300 cursor-pointer hover:shadow-md relative z-10"
           onClick={toggleSwitch}
           onMouseEnter={handleArrowVisibility}
         >
