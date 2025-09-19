@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         mainBlack: {
-          DEFAULT: "#28282B",
+          DEFAULT: "#1B1212",
           light: "#1a1a1a",
         },
         mainWhite: {
@@ -20,7 +20,7 @@ export default {
         },
         // Light mode colors
         light: {
-          bg: "#ffffff",
+          bg: "#FCF5E5",
           card: "#f8f9fa",
           border: "#e9ecef",
           text: "#212529",
