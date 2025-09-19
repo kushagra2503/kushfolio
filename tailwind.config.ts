@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         mainBlack: {
-          DEFAULT: "#111111",
+          DEFAULT: "#28282B",
           light: "#1a1a1a",
         },
         mainWhite: {
