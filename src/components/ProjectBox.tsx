@@ -56,13 +56,26 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     try {
       if (navigator.share) {
         await navigator.share(shareData)
+        toast.success("Shared successfully!")
       } else {
         await navigator.clipboard.writeText(shareData.url)
-        toast.success("Copied to clipboard")
+        toast.success("Copied to clipboard!")
       }
-    } catch (error) {
+    } catch (error: any) {
+      // Handle AbortError specifically (when user cancels share dialog)
+      if (error.name === 'AbortError') {
+        // User cancelled the share dialog - this is not an error
+        return
+      }
+
+      // Handle other clipboard errors
+      if (error.name === 'NotAllowedError') {
+        toast.error("Permission denied to access clipboard")
+        return
+      }
+
       console.error("Error sharing:", error)
-      toast.error("Error sharing")
+      toast.error("Failed to share")
     }
   }
 
