@@ -54,18 +54,18 @@ const Nav = () => {
             height={35}
           />
         </div>
-        {isArrowVisible && theme === 'dark' && (
-          <div id="arrow" className="absolute -rotate-90 bottom-6 -right-9 bg-zinc-800 dark:bg-transparent rounded-full p-1.5 shadow-lg dark:shadow-zinc-900/50 transition-all duration-300 animate-pulse">
-            <Image
-              src="/assets/images/gif/arrow.gif"
-              alt="arrow"
-              className="size-10"
-              width={100}
-              height={100}
-            />
-          </div>
-        )}
       </div>
+      {isArrowVisible && theme === 'dark' && (
+        <div id="arrow" className="fixed bottom-16 left-1/2 transform translate-x-24 -rotate-90 transition-all duration-300 animate-pulse z-50">
+          <Image
+            src="/assets/images/gif/arrow.gif"
+            alt="arrow"
+            className="size-10"
+            width={100}
+            height={100}
+          />
+        </div>
+      )}
     </div>
   )
 }
