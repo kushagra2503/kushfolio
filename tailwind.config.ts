@@ -24,7 +24,7 @@ export default {
           card: "#f8f9fa",
           border: "#e9ecef",
           text: "#212529",
-          muted: "#d1d5db",
+          muted: "#6c757d",
         },
       },
     },
