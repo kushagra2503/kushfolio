@@ -79,7 +79,7 @@ const projects = [
     content: "A desktop AI chat application built with Tauri 2.0, React, and Rust. Features a unique 'magic dot' overlay system that appears on text copy/selection for instant AI access. Supports multiple AI providers (Gemini, OpenAI, Claude) with API key rotation.",
     url: "https://www.raeai.app/",
     skill: ["React", "TypeScript", "Rust", "Tauri", "Tailwind CSS", "AI"],
-    preview: "",
+    preview: "/assets/videos/rae.mp4",
   },
   {
     id: 2,
