@@ -75,10 +75,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/favicon.png" sizes="180x180" />
         <link rel="mask-icon" href="/favicon.png" color="#000000" />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileImage" content="/favicon.png" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#000000" />
