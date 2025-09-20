@@ -14,10 +14,10 @@ interface ProjectBoxProps {
   status: boolean
   title: string
   content: string
-  url: string
-  github: string
+  url?: string
+  github?: string
   skill: string[]
-  preview: string
+  preview?: string
 }
 
 const ProjectBox: React.FC<ProjectBoxProps> = ({
@@ -47,7 +47,12 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
       document.removeEventListener("click", handleOutsideClick)
     }
   }, [])
-  const handleShare = async (url: string) => {
+  const handleShare = async (url?: string) => {
+    if (!url) {
+      toast.error("No URL available to share")
+      return
+    }
+
     const shareData = {
       title: "Check out this Project",
       url: url,
@@ -61,15 +66,15 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         await navigator.clipboard.writeText(shareData.url)
         toast.success("Copied to clipboard!")
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
       // Handle AbortError specifically (when user cancels share dialog)
-      if (error.name === 'AbortError') {
+      if (error instanceof Error && error.name === 'AbortError') {
         // User cancelled the share dialog - this is not an error
         return
       }
 
       // Handle other clipboard errors
-      if (error.name === 'NotAllowedError') {
+      if (error instanceof Error && error.name === 'NotAllowedError') {
         toast.error("Permission denied to access clipboard")
         return
       }
@@ -245,7 +250,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
                   className="cursor-pointer select-none hover:text-light-muted dark:hover:text-zinc-400 transition-colors duration-100"
                   onClick={(e) => {
                     e.stopPropagation()
-                    handleShare(url ? url : github)
+                    handleShare(url || github)
                   }}
                 >
                   <LuShare />
