@@ -6,7 +6,7 @@ import { MdOutlineMail } from "react-icons/md"
 const kushagraImage = "/assets/images/pfps/kushpfp.gif"
 const kushagraName = "Kushagra"
 const kushagraShortName = "Kushh"
-const kushagraBio = "Software Developer"
+const kushagraBio = "I am into Software Development"
 const kushagraAbout = `
   <p>
   Kushagra | 3rd-year undergrad, wannabe entrepreneur & full-stack dev turning wild ideas into real products.

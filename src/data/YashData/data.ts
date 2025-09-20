@@ -9,13 +9,13 @@ const yashAbout = `
     Hey, I’m Yash — welcome to the other side of my portfolio, where I show you what I do other than programming.
   </p>
   <p>
-    Outside of coding, I’m all about football, hitting the gym, and diving into story-driven video games.
+    Outside of coding, I’m all about football, hitting the gym, diving into story-driven video games and obsessed with designs and animations.
   </p>
   <p>
     If you have an idea and would like to collaborate, feel free to DM me! I'm always open and ready to connect and work on exciting projects. Also, be sure to check out my other side, just click on the navbar image!
   </p>
 `
-const yashBio = "Chill in vibe, mysterious in mind."
+const yashBio = "Simplicity is the ultimate sophistication."
 
 const yashLink = [
     {
