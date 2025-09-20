@@ -15,7 +15,7 @@ const SupportMe= () => {
         <section className="flex flex-col gap-0.5">
             <SectionTitle title="Support Me" />
             <div className="flex flex-col gap-2">
-                <p>{supportText}</p>
+                <p className="text-light-text/80 dark:text-mainWhite/80">{supportText}</p>
                 <div className="flex flex-wrap items-center gap-2">
                     <a className="btn" target="_blank" href="https://github.com/sponsors/kushagra2503">
                         <FaRegHeart className="text-pink-400"/>

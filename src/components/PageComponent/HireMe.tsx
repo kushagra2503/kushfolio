@@ -8,7 +8,7 @@ const HireMe = () => {
     <section className="flex flex-col gap-0.5">
       <SectionTitle title="Hire Me" />
       <div className=" flex flex-col gap-2">
-        <p>{hireText}</p>
+        <p className="text-light-text/80 dark:text-mainWhite/80">{hireText}</p>
         <div>
           <a className="btn" target="_blank" href={emailLink}>
             <PiSuitcaseSimpleBold />

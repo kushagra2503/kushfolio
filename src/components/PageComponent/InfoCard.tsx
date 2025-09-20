@@ -47,7 +47,7 @@ const InfoCard: React.FC = () => {
                     <Available text="Online" />
                 </div>
             </div>
-            <p className="text-light-muted dark:text-mainWhite/80">{isSwitchOn ? kushagraBio:yashBio}</p>
+            <p className="text-light-text/80 dark:text-mainWhite/80">{isSwitchOn ? kushagraBio:yashBio}</p>
             <div className="flex flex-wrap gap-1.5">
                 {socialLink.map((link) => (
                     <InfoTip key={link.id} text={link.name}>

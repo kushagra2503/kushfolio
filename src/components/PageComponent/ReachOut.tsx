@@ -13,7 +13,7 @@ const ReachOut = () => {
         <section className="flex flex-col gap-0.5">
             <SectionTitle title="Reach out to me" />
             <div className="flex flex-col gap-2.5">
-                <p className="text-light-text dark:text-mainWhite/80">{isSwitchOn ? kushagraContact : yashContact}</p>
+                <p className="text-light-text/80 dark:text-mainWhite/80">{isSwitchOn ? kushagraContact : yashContact}</p>
                 <div>
                     <div className="flex flex-wrap items-center gap-2">
                         {contactLink.map((link) => (

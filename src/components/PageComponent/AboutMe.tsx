@@ -15,7 +15,7 @@ const AboutMe = () => {
                 dangerouslySetInnerHTML={{
                     __html: isSwitchOn ? kushagraAbout : yashAbout, // Conditionally render content based on the switch state
                 }}
-                className="flex flex-col gap-1"
+                className="flex flex-col gap-1 text-light-text/80 dark:text-mainWhite/80"
                 />
             </div>
         </section>

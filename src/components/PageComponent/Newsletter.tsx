@@ -50,7 +50,7 @@ const Newsletter = () => {
     <section className="flex flex-col gap-0.5">
       <SectionTitle title="Community" />
       <div className="flex flex-col gap-2">
-        <p className="text-gray-400">Subscribe to become a part of my community.</p>
+        <p className="text-light-text/80 dark:text-mainWhite/80">Subscribe to become a part of my community.</p>
         <div className="flex items-center justify-between p-5 border border-light-border dark:border-zinc-700 rounded-md bg-light-card dark:bg-zinc-900">
           <form
             onSubmit={handleSubmit}

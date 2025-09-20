@@ -37,7 +37,7 @@ body {
 }
 
 .showMore-btn {
-  @apply select-none bg-black dark:bg-zinc-700/30 w-full px-2 py-1 rounded-md hover:bg-black/80 dark:hover:bg-zinc-700/50 transition-colors duration-100;
+  @apply select-none bg-light-muted/50 dark:bg-zinc-700/30 w-full px-2 py-1 rounded-md hover:bg-light-muted dark:hover:bg-zinc-700/50 transition-colors duration-100;
 }
 
 .btn {
