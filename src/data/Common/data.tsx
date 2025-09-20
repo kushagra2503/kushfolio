@@ -101,6 +101,16 @@ const projects = [
     skill: ["OpenAI", "TypeScript", "Node.js", "npm"],
     preview: "",
   },
+  {
+    id:4,
+    img:"/assets/images/projects/quackquery.png",
+    title: "QuackQuery",
+    status: true,
+    content: "QuackQuery is a terminal based AI assistant that can real time capture your screen and does the job for you.",
+    github: "https://github.com/kushagra2503/ai_assistant_pkg",
+    skill: ["Gemini, OpenCV, npm, Python, Tesseract, Selenium"],
+    preview: "",
+  }
 ];
 
 const writings = [
