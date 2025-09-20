@@ -15,8 +15,13 @@ const ArtsAndDesigns = () => {
   const visibleArts = showAll ? arts : arts.slice(0, 4)
 
   return (
-    <div id="arts-designs" className="flex flex-col gap-3">
+    <div id="arts-designs" className="flex flex-col gap-2">
       <SectionTitle title="Arts & Designs" />
+      <div className="flex flex-col gap-2">
+        <p className="text-light-text/80 dark:text-mainWhite/80 leading-relaxed">
+          Beyond programming, I explore and brainstorm creative concepts for art, illustrations, and animations—imagining how they can seamlessly fit into websites, digital platforms, and other spaces. It’s not just about creating visuals, but about designing experiences that enhance storytelling, mood, and interaction. From rough sketches to refined concepts, this is where you will find creative side of me.
+        </p>
+      </div>
       <AnimatedWrapper delay={0.1}>
         <div className="bg-light-card dark:bg-zinc-900 hover:bg-light-muted/75 dark:hover:bg-zinc-800/75 transition-colors duration-100 border border-light-border dark:border-zinc-700 rounded-md overflow-hidden">
           <div className="p-6">
