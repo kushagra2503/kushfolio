@@ -93,7 +93,7 @@ const Newsletter = () => {
             ) : (
               <button
                 type="submit"
-                className="px-3 md:w-[110px] w-full mx-auto py-1 h-full bg-light-text hover:bg-light-text/80 hover:border-light-text/80 hover:scale-105 rounded-md border border-light-text text-light-bg dark:bg-white dark:hover:bg-white/80 dark:hover:border-white/80 dark:text-black whitespace-nowrap transition-all duration-200"
+                className="px-3 md:w-[110px] w-full mx-auto py-1 h-full bg-black hover:bg-black/80 hover:border-black/80 hover:scale-105 rounded-md border border-black text-white dark:bg-white dark:hover:bg-white/80 dark:hover:border-white/80 dark:text-black whitespace-nowrap transition-all duration-200"
               >
                 Subscribe!
               </button>
