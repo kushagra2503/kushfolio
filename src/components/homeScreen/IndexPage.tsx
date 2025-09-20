@@ -4,6 +4,7 @@ import AboutMe from "../PageComponent/AboutMe"
 import Footer from "../PageComponent/Footer"
 import InfoCard from "../PageComponent/InfoCard"
 import Projects from "../PageComponent/Projects"
+import ArtsAndDesigns from "../PageComponent/ArtsAndDesigns"
 import Skills from "../PageComponent/Skills"
 import ReachOut from "../PageComponent/ReachOut"
 import Writings from "../PageComponent/Writings"
@@ -42,7 +43,7 @@ const IndexPage = () => {
             <Skills />
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.65}>
-            <Projects />
+            {isSwitchOn ? <Projects /> : <ArtsAndDesigns />}
           </AnimatedWrapper>
           <AnimatedWrapper delay={0.75}>
             <Writings />

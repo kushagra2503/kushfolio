@@ -93,6 +93,39 @@ const yashContactLink = [
     }
 ]
 
+const arts = [
+    {
+        id: 1,
+        img: "/assets/images/cloud.gif",
+        title: "Cloud Animation",
+        content: "Digital artwork featuirng smooth painted clouds and birds",
+    },
+    {
+        id: 2,
+        img: "/assets/images/plane2.gif",
+        title: "Flying Plane Animation",
+        content: "A smooth animated plane flying across the screen",
+    },
+    {
+        id: 3,
+        img: "/assets/images/dragon.gif",
+        title: "Dragon Animation",
+        content: "A cartoonish dragon blowing fire",
+    },
+    {
+        id: 4,
+        img: "/assets/images/wolf.gif",
+        title: "Wolves Animation",
+        content: "Resembling how the wolves live in a pack",
+    },
+    {
+        id: 5,
+        img: "/assets/images/human2.gif",
+        title: "Human Animation",
+        content: "Imagined how a human would look if AI took over",
+    }
+]
+
 export {
     yashImage,
     yashName,
@@ -101,5 +134,6 @@ export {
     yashLink,
     yashFooterLInk,
     yashContact,
-    yashContactLink
+    yashContactLink,
+    arts
 }
