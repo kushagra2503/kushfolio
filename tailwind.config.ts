@@ -20,11 +20,11 @@ export default {
         },
         // Light mode colors
         light: {
-          bg: "#FCF5E5",
-          card: "#ffffff",
-          border: "#d4a574",
-          text: "#2c1810",
-          muted: "#8b7355",
+          bg: "#ffffff",
+          card: "#f8f9fa",
+          border: "#e9ecef",
+          text: "#212529",
+          muted: "#d1d5db",
         },
       },
     },
