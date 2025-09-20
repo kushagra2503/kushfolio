@@ -99,7 +99,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public (uncommented to track portfolio assets)
 
 # Storybook build outputs
 .out
