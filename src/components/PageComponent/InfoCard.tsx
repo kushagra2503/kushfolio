@@ -22,9 +22,6 @@ const InfoCard: React.FC = () => {
   return (
     <section>
       <div className="flex flex-col gap-2">
-        <div className="block md:hidden">
-          <Available text="Availabel" />
-        </div>
         <div className="flex gap-3 items-center">
           <div
             onClick={() => setIsOpen(true)}
